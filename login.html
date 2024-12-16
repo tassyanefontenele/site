@@ -37,26 +37,12 @@
         </div>
 
         <form>
-            <div class="form-row">
-                <label>Nome Completo:</label>
-                <input type="text">
-                <label>CPF:</label>
-                <input type="text">
-            </div>
-            <div class="form-row">
-                <label>Telefone:</label>
-                <input type="tel">
-                <label>E-mail:</label>
-                <input type="email">
-            </div>
-            <div>
-                <label>Senha:</label>
-                <input type="password">
-                <label>Confirme a senha:</label>
-                <input type="password"> 
-            </div>
-            <a href="login.html" class="botao">Login</a>
-            <button type="submit">Criar conta</button>                    
+            <h1>Login</h1>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Entrar</button>
         </form>
 
     </div>
@@ -97,29 +83,5 @@
     
     input {
         flex: 2;
-    }
-    .botao {
-        background-color: #4CAF50; /* Cor de fundo verde */
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 4px;
-    }
-    button[type="submit"]{
-        background-color: #4CAF50; /* Cor de fundo verde */
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 4px;
     }
 </style>
